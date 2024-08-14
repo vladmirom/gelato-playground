@@ -1,0 +1,24 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"preferredVersions": {
+		"php": "latest",
+		"wp": "latest"
+	},
+	"siteOptions": {
+		"blogname": "Gelato Theme Demo"
+	},
+	"steps": [
+		{
+			"step": "installTheme",
+			"themeZipFile": {
+				"resource": "url",
+				"url": "/playground/zips/gelato-theme.zip"
+			}
+		}
+	],
+	"features": {
+		"networking": true
+	},
+	"login": true,
+	"landingPage": "/?p=7"
+}
