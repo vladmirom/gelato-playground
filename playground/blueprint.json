@@ -12,7 +12,7 @@
 			"step": "installTheme",
 			"themeZipFile": {
 				"resource": "url",
-				"url": "/playground/zips/gelato-theme.zip"
+				"url": "https://raw.githubusercontent.com/vladmirom/gelato-playground/main/zips/gelato-theme.zip"
 			}
 		}
 	],
